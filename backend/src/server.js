@@ -17,9 +17,7 @@ const __dirname = path.resolve();
 // middleware
 app.use(
   cors({
-    origin: process.env.NODE_ENV === "production" 
-      ? "https://mern-thinkboard-rwt9.vercel.app" 
-      : "http://localhost:5173",
+    origin: "https://mern-thinkboard-rwt9.vercel.app"
   })
 );
 app.use(express.json()); // this middleware will parse JSON bodies: req.body
