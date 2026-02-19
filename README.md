@@ -1,6 +1,6 @@
 # 📝 ThinkBoard — MERN Stack Note Taking App
 
-![ThinkBoard Banner](./frontend/public/screenshot-for-readme.png)
+
 
 A full-stack note-taking web application where users can **create, update, and delete notes**. Built with the MERN stack and deployed with a live backend and frontend.
 
