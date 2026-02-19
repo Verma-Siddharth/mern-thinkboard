@@ -1,10 +1,9 @@
 # 📝 ThinkBoard — MERN Stack Note Taking App
 
 
-
 A full-stack note-taking web application where users can **create, update, and delete notes**. Built with the MERN stack and deployed with a live backend and frontend.
 
-🔗 **Live Demo:** [your-live-link-here]  
+🔗 **Live Demo:** [https://mern-thinkboard-rwt9.vercel.app](https://mern-thinkboard-rwt9.vercel.app)  
 💻 **GitHub:** [https://github.com/Verma-Siddharth/mern-thinkboard](https://github.com/Verma-Siddharth/mern-thinkboard)
 
 ---
@@ -28,7 +27,8 @@ A full-stack note-taking web application where users can **create, update, and d
 | Backend | Node.js, Express.js |
 | Database | MongoDB, Mongoose, MongoDB Atlas |
 | Caching / Rate Limiting | Upstash Redis |
-| Deployment | Render (backend), Render (frontend) |
+| Deployment (Frontend) | Vercel |
+| Deployment (Backend) | Railway |
 
 ---
 
@@ -115,6 +115,7 @@ App runs on `http://localhost:5173`
 - Connecting a backend to **MongoDB Atlas** using Mongoose
 - Implementing **rate limiting** with Redis to protect APIs from abuse
 - Managing **environment variables** to keep sensitive data secure
+- Configuring **CORS** to allow secure communication between frontend and backend
 - **Deploying** a full-stack app with separate frontend and backend services
 - Understanding the difference between **SQL and NoSQL** databases
 
@@ -122,8 +123,8 @@ App runs on `http://localhost:5173`
 
 ## 📦 Deployment
 
-- **Backend** deployed on [Render](https://render.com)
-- **Frontend** deployed on [Render](https://render.com) as a static site
+- **Frontend** deployed on [Vercel](https://vercel.com) → [https://mern-thinkboard-rwt9.vercel.app](https://mern-thinkboard-rwt9.vercel.app)
+- **Backend** deployed on [Railway](https://railway.app) → [https://mern-thinkboard-production-7bbc.up.railway.app](https://mern-thinkboard-production-7bbc.up.railway.app)
 - Database hosted on **MongoDB Atlas** (cloud)
 - Redis hosted on **Upstash** (serverless)
 
